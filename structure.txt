@@ -1,0 +1,55 @@
+🧠 Why This Is Important
+
+Without CI/CD:
+Developer
+    ↓
+Manual Testing
+    ↓
+Manual Deployment
+    ↓
+Production
+
+With CI/CD:
+
+Developer
+    ↓
+Git Push
+    ↓
+GitHub Actions
+    ↓
+Run Tests
+    ↓
+Build Application
+    ↓
+Deploy Automatically
+
+Benefits:
+✅ Automatic testing
+✅ Automatic deployment
+✅ Faster releases
+✅ Reduced human errors
+✅ Consistent builds
+
+Used By:
+GitHub Actions
+GitLab CI/CD
+Jenkins
+CircleCI
+Azure DevOps
+
+🛠 Tech Stack
+Python
+Flask
+Pytest
+GitHub Actions
+YAML
+
+📂 Project Structure
+flask-cicd-demo/
+│
+├── app.py
+├── test_app.py
+├── requirements.txt
+└── .github/
+    └── workflows/
+        └── ci.yml
